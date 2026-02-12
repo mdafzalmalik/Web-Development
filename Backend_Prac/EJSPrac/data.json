@@ -1,0 +1,68 @@
+{
+  "travel": {
+    "name": "travel",
+    "followers": 54000,
+    "following": 120,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "likes": 4210,
+        "comments": 89
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98",
+        "likes": 3890,
+        "comments": 54
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+        "likes": 5120,
+        "comments": 120
+      }
+    ]
+  },
+  "food": {
+    "name": "food",
+    "followers": 83000,
+    "following": 340,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+        "likes": 6200,
+        "comments": 140
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "likes": 7100,
+        "comments": 210
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "likes": 2800,
+        "comments": 48
+      }
+    ]
+  },
+  "fitness": {
+    "name": "fitness",
+    "followers": 46000,
+    "following": 95,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+        "likes": 3500,
+        "comments": 67
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1",
+        "likes": 4100,
+        "comments": 72
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+        "likes": 2900,
+        "comments": 39
+      }
+    ]
+  }
+}
