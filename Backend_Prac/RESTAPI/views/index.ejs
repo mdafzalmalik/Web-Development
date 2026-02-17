@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>All Posts</h1>
+    <div class="post">
+        <% for(let post of posts) { %>
+            <h3 class="username">@<%= post.name %></h3>
+            <p class="content"><%= post.content %></p>
+            <a href="http://localhost:8080/posts/view/<%= post.id %>">view</a>
+            <hr>
+        <% } %>
+    </div>
+</body>
+</html>
