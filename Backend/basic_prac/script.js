@@ -13,11 +13,11 @@
 
 // console.log(math.sum(1,2));
 
-// const info = require("./fruits");
+// const info = require("./fruits");  // this is folder fruits 
 
-// console.log(info[0]);
+// console.log(info);
 
-import {sum, g} from "./math.js"
-import { generate} from "random-words";
+// import {sum, g} from "./math.js"
+// import { generate} from "random-words";
 
-console.log(generate());
+// console.log(generate());
