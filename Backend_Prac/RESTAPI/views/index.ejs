@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>All Posts</h1>
-    <div class="post">
-        <% for(let post of posts) { %>
-            <h3 class="username">@<%= post.name %></h3>
-            <p class="content"><%= post.content %></p>
-            <a href="http://localhost:8080/posts/view/<%= post.id %>">view</a>
-            <hr>
-        <% } %>
-    </div>
+    <h1>Quora Posts</h1>
+    <% for(let post of posts){ %>
+        <div class="post">
+            <h3 class="username"> @<%= post.username %> </h3>
+            <h3 class="content"> <%= post.content %> </h3>
+            <a href="http://localhost:8080/posts/<%= post.id %>">view</a>
+            <a href="http://localhost:8080/posts/<%= post.id %>/edit">edit</a> 
+            <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
+                <button>Delete Post</button>
+            </form>
+        </div>
+    <% } %>
+    <a href="http://localhost:8080/posts/new">Create a new post</a>
 </body>
 </html>
