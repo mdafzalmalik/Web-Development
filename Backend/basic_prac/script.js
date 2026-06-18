@@ -6,14 +6,15 @@
 // let args = process.argv;
 
 // for(let i = 2; i < args.length; i++){
-//     console.log("hello", args[i])
+//     console.log("hello", args[i]);
+//     // console.log(process.argv);
 // }
 
 // const math = require("./math");
 
 // console.log(math);
 
-// // console.log(math.sum(1,2));
+// console.log(math.sum(1,2));
 
 // const info = require("./fruits");  // this is folder fruits 
 
